@@ -11,13 +11,9 @@ Admin loader, PUBG, INSERT, F4. Windows 10/11, Steam, BattlEye.
 
 ## Compatibility
 
-## Compatibility
-
 - Windows 10 21H2 and newer, Windows 11
 - borderless and windowed fullscreen
 - 16:9 and 21:9, DPI up to 150%
-
-## Visual tuning
 
 ## Visual tuning
 
@@ -28,8 +24,6 @@ Admin loader, PUBG, INSERT, F4. Windows 10/11, Steam, BattlEye.
 | health | on | on/off | left bar |
 | team filter | on | on/off | skip teammates |
 | streamproof | on | on/off | capture safety |
-
-## Troubleshooting
 
 ## Troubleshooting
 
@@ -45,19 +39,13 @@ Admin loader, PUBG, INSERT, F4. Windows 10/11, Steam, BattlEye.
 
 ## Notes
 
-## Notes
-
 - keep loader and config.json together
 - close other overlays before attaching
 - first launch after a patch is slower while offsets load
 
 ## Architecture
 
-## Architecture
-
 The loader stays outside the client, reads through a handle and paints its own overlay. Nothing is injected, so a game crash never takes the tool with it.
-
-## FAQ
 
 ## FAQ
 
